@@ -60,3 +60,23 @@
     font-weight: bold;
     font-size: 75px;
 }
+
+#aboutMeTitle {
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+    color: #fe6076;
+    text-align: center;
+}
+
+#aboutMeInfo {
+    position: absolute;
+    top: 100%;
+    left: 17%;
+}
+
+#aboutMe {
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 33px;;
+}
