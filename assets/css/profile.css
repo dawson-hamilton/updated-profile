@@ -106,3 +106,64 @@
     top: 200%;
     left: 17%;
 }
+
+#icons {
+    position: absolute;
+    top: 215%;
+    left: 17%;
+}
+
+#html {
+    color: #fe6076;
+    font-size: 100px;
+}
+
+#css {
+    color: #667eea;
+    font-size: 100px;
+}
+
+#js {
+    color: #f5ce62;
+    font-size: 100px;
+}
+
+#node {
+    color: #84fab0;
+    font-size: 100px;
+}
+
+#iconsRow {
+    margin-left: 6%;
+}
+
+#textRow {
+    margin-left: 4%;
+}
+
+#htmlText {
+    color: #fe6076;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    margin-left: 1%;
+}
+
+#cssText {
+    color: #667eea;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+}
+
+#jsText {
+    color: #f5ce62;
+    margin-left: 4%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+}
+
+#nodeText {
+    color: #84fab0;
+    margin-left: -7%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+}
