@@ -80,3 +80,29 @@
     font-family: 'Amatic SC', cursive;
     font-size: 33px;;
 }
+
+#portfolioInfo {
+    position: absolute;
+    top: 150%;
+    left: 17%;
+}
+
+#portfolio {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+    color: #f5ce62;
+}
+
+#tech {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+    color: #667eea;
+}
+
+#techInfo {
+    position: absolute;
+    top: 200%;
+    left: 17%;
+}
