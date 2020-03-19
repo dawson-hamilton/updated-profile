@@ -1,5 +1,7 @@
 #body {
     background-color: rgb(46, 46, 46);
+    height: 100%;
+    margin: 0;
 }
 
 .nav {
@@ -144,26 +146,76 @@
 #htmlText {
     color: #fe6076;
     font-family: 'Amatic SC', cursive;
-    font-size: 70px;
+    font-size: 68px;
     margin-left: 1%;
 }
 
 #cssText {
     color: #667eea;
     font-family: 'Amatic SC', cursive;
-    font-size: 70px;
+    font-size: 68px;
+    margin-left: -5px;
 }
 
 #jsText {
     color: #f5ce62;
     margin-left: 4%;
     font-family: 'Amatic SC', cursive;
-    font-size: 70px;
+    font-size: 68px;
 }
 
 #nodeText {
     color: #84fab0;
     margin-left: -7%;
     font-family: 'Amatic SC', cursive;
-    font-size: 70px;
+    font-size: 68px;
+}
+
+#contactDiv {
+    position: absolute;
+    top: 260%;
+    left: 17%;
+}
+
+#contactInfo {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+    color: #8E37D7;
+}
+
+#contactInfoDiv {
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+.phoneAndEmail {
+    font-size: 50px;
+}
+
+#resume {
+    font-size: 50px;
+    color: white;
+}
+
+#footer {
+    background-image: linear-gradient(to right, #fe6076, #f5ce62, #667eea, #8E37D7);
+    height: 9%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    top: 300%;
+    left: 0%;
+}
+
+#contactIcons {
+    font-size: 50px;
+    margin: 15px;
+    color: black;
+}
+
+#contactIcons:hover {
+    color: rgb(59, 59, 59);
 }
