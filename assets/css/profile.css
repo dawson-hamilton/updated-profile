@@ -5,7 +5,7 @@
 }
 
 .nav {
-    background-image: linear-gradient(to right, #fe6076, #f5ce62, #667eea, #8E37D7);
+    background-image: linear-gradient(to right, #fe6076, #f5ce62, #667eea, #84fab0);
     height: 7%;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .four:hover {
-    color: #8E37D7;
+    color: #84fab0;
 }
 
 .nav-link {
@@ -35,8 +35,9 @@
 #profileImage {
     position: absolute;
     top: 20%;
-    left: 43%;
-    height:300px;
+    left: 42%;
+    height:330px;
+    transform: rotate(90deg);
     border-radius: 50%;
     box-shadow: 0 4px 15px 0 rgba(255, 255, 255, 0.75);
 }
@@ -105,13 +106,13 @@
 
 #techInfo {
     position: absolute;
-    top: 200%;
+    top: 220%;
     left: 17%;
 }
 
 #icons {
     position: absolute;
-    top: 215%;
+    top: 235%;
     left: 17%;
 }
 
@@ -173,7 +174,7 @@
 
 #contactDiv {
     position: absolute;
-    top: 260%;
+    top: 273%;
     left: 17%;
 }
 
@@ -181,7 +182,7 @@
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 75px;
-    color: #8E37D7;
+    color: #84fab0;
 }
 
 #contactInfoDiv {
@@ -200,13 +201,13 @@
 }
 
 #footer {
-    background-image: linear-gradient(to right, #fe6076, #f5ce62, #667eea, #8E37D7);
+    background-image: linear-gradient(to right, #fe6076, #f5ce62, #667eea, #84fab0);
     height: 9%;
     width: 100%;
     margin: 0%;
     padding: 0%;
     position: absolute;
-    top: 300%;
+    top: 316%;
     left: 0%;
 }
 
@@ -218,4 +219,50 @@
 
 #contactIcons:hover {
     color: rgb(59, 59, 59);
+}
+
+.profileImages {
+    height: 150px;
+}
+
+.profileButtons {
+    position: absolute;
+    top: 115%;
+    left: 17%;
+}
+
+#cocktailDiv {
+    position: absolute;
+    top: 165%;
+    left: 18%;
+}
+
+#photoDiv {
+    position: absolute;
+    top: 165%;
+    left: 41%;
+}
+
+#weatherDiv {
+    position: absolute;
+    top: 165%;
+    left: 65%;
+}
+
+#plannerDiv {
+    position: absolute;
+    top: 190%;
+    left: 18%;
+}
+
+#burgerDiv {
+    position: absolute;
+    top: 190%;
+    left: 42%;
+}
+
+#passwordDiv {
+    position: absolute;
+    top: 190%;
+    left: 65%;
 }
